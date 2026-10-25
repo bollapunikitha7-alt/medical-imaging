@@ -1,0 +1,44 @@
+# Data and experiment outputs
+Datasets/
+experiments/
+figures/
+
+# Model artifacts and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Logs and runtime artifacts
+*.log
+*.out
+*.err
+runs/
+wandb/
+
+# Notebook and temp files
+*.ipynb
+
+# OS / editor / Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Large generated documents/media
+*.pptx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
